@@ -1,0 +1,41 @@
+:root {
+    --black: black;
+    --white: white;
+    --gray: #bebebe;
+    --gray-dark: #00000099;
+    --gray-light: rgba(0, 0, 0, 0.5);
+    --violet: #ecdcff;
+    --violet-background: #eadaff;
+    --violet-background2: #faf7ff;
+    --violet-background3:#F5EEFE;
+    --violet-hr: #b99ed9;
+    --btn-color: #f4817d;
+    --btn-black: #313131;
+    --hr: rgba(221, 223, 224, 1);
+    --violet-gradient: linear-gradient(179.92deg, rgba(229, 209, 255, 0.8) 34.31%, rgba(229, 209, 255, 0) 101.22%);
+    --violet-radial: radial-gradient(40% 40% at 50% 50%, rgba(143, 80, 247, 0.7) 0%, rgba(143, 80, 247, 0) 100%);
+    --white-gradient: linear-gradient(113.02deg, rgba(255, 255, 255, 0.74) -8.33%, rgba(255, 255, 255, 0) 111.53%);
+    --buy-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+
+    --mini-font: 12px;
+    --nav-font: 14px;
+    --menu-font: 15px;
+    --pref-font: 17px;
+    --premiddle-font: 20px;
+    --center-font: 24px;
+    --middle-font: 22px;
+    --max-font: 28px;
+    --max-weight: 700;
+    --middle-weight: 500;
+    --mini-weight: 400;
+
+    --padding-top: 60px;
+    --padding-bottom: 30px;
+    --main-padding: 24px;
+    --landing-top: 40px;
+    --landing-left: 45px;
+    --mini-padding:13px;
+
+    --border: 6px;
+    --more-border: 10px;
+}

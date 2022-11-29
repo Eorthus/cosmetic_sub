@@ -1,0 +1,26 @@
+ul, ol{
+    list-style-type: none;
+}
+.btn{
+    background: var(--btn-pink);
+    border-radius: var(--border);
+    border: none;
+    color: var(--white);
+    font-size: var(--premiddle-font);
+    font-weight: var(--max-weight);
+    white-space: nowrap;
+    height: 40px;
+    color: var(--white);
+}
+.mobile{
+    display: none;
+    @media screen and (max-width:576px){
+        display: block;
+    }
+}
+.desktop{
+    display: block;
+    @media screen and (max-width:576px){
+        display: none;
+    }
+}

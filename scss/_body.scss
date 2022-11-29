@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+.landing{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: var(--black);
+    box-sizing: border-box;
+    line-height: 28px;
+    overflow: hidden;
+}
+.container-land{
+    width: 975px;
+    margin:auto;
+    @media screen and (max-width:576px){
+        width:375px;
+    }
+}
+.paddings{
+    padding-left: var(--main-padding);
+    padding-right: var(--main-padding);
+    @media screen and (max-width:576px){
+        padding-left: var(--mini-padding);
+        padding-right: var(--mini-padding);
+    }
+}
